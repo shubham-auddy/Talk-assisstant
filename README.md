@@ -9,5 +9,4 @@ Python modules that I have used in this program are :
 2. pyttsx3 - for talking back system
 3. webbrowser - for google search
 4. pywhatkit - for youtube search
-
-[![Talk-assistant](https://www.youtube.com/watch?v=M6Tm_g-BwRo/0.jpg)](https://www.youtube.com/watch?v=M6Tm_g-BwRo)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/M6Tm_g-BwRo/0.jpg)](https://img.youtube.com/vi/M6Tm_g-BwRo)
