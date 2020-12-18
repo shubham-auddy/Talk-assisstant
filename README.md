@@ -5,7 +5,7 @@ For doing so however, the user must log in to the program by giving any on the s
 After logging in, if you don't want do anything then you can simply say "Thankyou" or "Thankou Jarvis" to close the program automatically with a nice message.
 
 Python modules that I have used in this program are :
-speech_recognition - for speech recognition
-pyttsx3 - for talking back system
-webbrowser - for google search
-pywhatkit - for youtube search
+1. speech_recognition - for speech recognition
+2. pyttsx3 - for talking back system
+3. webbrowser - for google search
+4. pywhatkit - for youtube search
