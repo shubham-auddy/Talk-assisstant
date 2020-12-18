@@ -87,21 +87,13 @@ def g_search(command):
     string3 = string2.replace("what are","")
     string3 = string3.replace("who are","")
     keyword = string3.replace(" ","+")
-            
-    if(keyword == "+shubham+audi"):
-        keyword = keyword.replace("+shubham+audi","+shubham+auddy")
-        url = "https://www.google.com/search?q="+keyword+"&start="+str(1)
+    
+    url = "https://www.google.com/search?q="+keyword+"&start="+str(1)
 
-        webbrowser.register('chrome',None,webbrowser.BackgroundBrowser("C://Program Files//Google//Chrome//Application//chrome.exe"))
-        webbrowser.get('chrome').open(url)
-        speak("I have googled "+string3+ " for you sir!")
-    else:
-        url = "https://www.google.com/search?q="+keyword+"&start="+str(1)
-
-        webbrowser.register('chrome',None,webbrowser.BackgroundBrowser("C://Program Files//Google//Chrome//Application//chrome.exe"))
-        webbrowser.get('chrome').open(url)
-        speak("I have googled "+string3+ " for you sir!")
-        power_kill()
+    webbrowser.register('chrome',None,webbrowser.BackgroundBrowser("C://Program Files//Google//Chrome//Application//chrome.exe"))
+    webbrowser.get('chrome').open(url)
+    speak("I have googled "+string3+ " for you sir!")
+    power_kill()
 
 # function for running
 def run():
